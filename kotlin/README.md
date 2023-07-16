@@ -1,11 +1,28 @@
 # Kotlin
-
 - To run kotlin script you can use this command
     - `kotlinc file.kt -include-runtime -d file.jar && java -jar file.jar`
-- [Kotlin hello world](example/1_hello_world.kt)
-- [Kotlin main with parameters](example/2_main_with_parameters.kt)
+- Kotlin [hello world](example/1_hello_world.kt)
+- Kotlin [main with parameters](example/2_main_with_parameters.kt)
 - [Comments](example/3_comment.kt)
 - Syntax
+- [Variables](concepts/variables.kt) ***FIXME: COMPLETE THIS EXAMPLE***
+    - ***camelCase*** variable naming 
+    - `var` can be changed
+    - `val` cannot be changed
+- [DataTypes](concepts/datatypes.kt)
+    - `:Boolean`
+    - `:Char`
+    - `:String`
+    - Integer
+        - `:Byte`
+        - `:Short`
+        - `:Int`
+        - `:Long`
+    - Float
+        >> You can use `e` like `4e3` for both
+        - `:Float`
+        - `:Double`
+    - Array
 - Functions
     - `println()`
 - Keywords
