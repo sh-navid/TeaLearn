@@ -5,7 +5,7 @@
 - Kotlin [main with parameters](example/2_main_with_parameters.kt)
 - [Comments](example/3_comment.kt)
 - Syntax
-- [Variables](concepts/variables.kt) ***FIXME: COMPLETE THIS EXAMPLE***
+- [Variables](concepts/variables.kt)
     - ***camelCase*** variable naming 
     - `var` can be changed
     - `val` cannot be changed
@@ -22,7 +22,7 @@
         >> You can use `e` like `4e3` for both
         - `:Float`
         - `:Double`
-    - Array
+    - Array `FIXME: CONTINUE FROM THIS CHECKPOINT`
 - Functions
     - `println()`
 - Keywords
