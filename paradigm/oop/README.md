@@ -1,5 +1,8 @@
 # Paradigm
 ## OOP
+### Concepts
+- Dependency Injection ?
+- Inversion of Control ?
 ### Principles
 - SOLID
     - Single-responsibility principle
