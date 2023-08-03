@@ -2,6 +2,8 @@
 ## Android
 - Imported from `https://github.com/sh-navid/Instructor.Headlines/blob/master/android/ANDROID.md`
 
+- [FreshView](/example/FreshView.java)
+
 
 ## [CONTINUE FROM HERE]
 https://www.tutorialspoint.com/android/android_acitivities.htm
