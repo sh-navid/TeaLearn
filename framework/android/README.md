@@ -38,13 +38,13 @@ public class MyService extends Service {}
 ~~~
 - __Broadcast Receivers__ − They handle communication between Android OS and applications. Broadcast Receivers simply respond to broadcast messages from other applications or from the system.
 ~~~java
-public class MyReceiver  extends  BroadcastReceiver {
+public class MyReceiver extends BroadcastReceiver {
    public void onReceive(context,intent) {}
 }
 ~~~
 - __Content Providers__ − They handle data and database management issues. A content provider component supplies data from one application to others on request.
 ~~~java
-public class MyContentProvider extends  ContentProvider {
+public class MyContentProvider extends ContentProvider {
    public void onCreate() {}
 }
 ~~~
