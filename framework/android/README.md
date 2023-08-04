@@ -128,29 +128,7 @@ The activity_main.xml is a layout file available in res/layout directory.
 
 ### Activities
 - Activity-Life-Cycle
-   - ___CHECK THE VALIDITY OF THIS FLOW !!___
-
-<pre>
-                        (Activity Lunched)
-                                ↓
-                           [onCreate()]
-                                ↓
-                           [onStart()]                      [onRestart]
-                                ↓
-                           [onResume()]
-                                ↓
-(App Process Killed)    (Activity Running)
-                                ↓
-  Apps with higher              ↓
-  priority needs      ←    [onPause()]
-  memory                        ↓
-                                ↓
-                      ←    [onStop()]
-                                ↓
-                           [onDestroy()]
-                                ↓
-                        (Activity shutdown)
-</pre>
+![img](https://static.javatpoint.com/images/androidimages/Android-Activity-Lifecycle.png)
 
 - __onStart()__ − This callback is called when the activity becomes visible to the user.
 
