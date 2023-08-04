@@ -1,6 +1,7 @@
 # TeaLearn
 ## CPlusPlus
-Base CPP information gathered from this [source](https://www.w3schools.in/cplusplus-tutorial/intro/).
+- Imported from `https://github.com/sh-navid/Instructor.Headlines/blob/master/cpp/CPP.md`
+- Base CPP information gathered from this [source](https://www.w3schools.in/cplusplus-tutorial/intro/).
 
 
 ### [CONTINUE FROM HERE]
