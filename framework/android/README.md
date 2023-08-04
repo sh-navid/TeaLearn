@@ -127,7 +127,31 @@ The activity_main.xml is a layout file available in res/layout directory.
 - drawable-hdpi/
 
 ### Activities
-![Activity-Life-Cycle](https://github.com/sh-navid/Headlines/blob/master/assets/activity-life-cycle.jpg)
+- Activity-Life-Cycle
+   - ___CHECK THE VALIDITY OF THIS FLOW !!___
+
+<pre>
+                        (Activity Lunched)
+                                ↓
+                           [onCreate()]
+                                ↓
+                           [onStart()]                      [onRestart]
+                                ↓
+                           [onResume()]
+                                ↓
+(App Process Killed)    (Activity Running)
+                                ↓
+  Apps with higher              ↓
+  priority needs      ←    [onPause()]
+  memory                        ↓
+                                ↓
+                      ←    [onStop()]
+                                ↓
+                           [onDestroy()]
+                                ↓
+                        (Activity shutdown)
+</pre>
+
 - __onStart()__ − This callback is called when the activity becomes visible to the user.
 
 ## Usefull
