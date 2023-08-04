@@ -42,34 +42,34 @@ Identifiers are names given to different entries such as variables, structures, 
 
 ### Keywords:
 Keywords are reserved words which have fixed meaning to the compiler.
-- if else break continue
-- for while do
-- switch case default
-- bool true false
-- char wchar_t
-- const const_cast volatile
-- void int float double
-- sizeof
-- try catch
-- goto
-- namespace struct class return vistual using inline static static_cast
-- private protected public
-- asm new this auto enum operator throw explicit delete
-- export extern typedef register typeid typename template
-- reinterpret_cast union friend mutable dynamic_cast
-- short long signed unsigned
+- `if` `else` `break` `continue`
+- `for` `while` `do`
+- `switch` `case` `default`
+- `bool` `true` `false`
+- `char` `wchar_t`
+- `const` `const_cast` `volatile`
+- `void` `int` `float` `double`
+- `sizeof`
+- `try` `catch`
+- `goto`
+- `namespace` `struct` `class` `return` `vistual` `using` `inline` `static` `static_cast`
+- `private` `protected` `public`
+- `asm` `new` `this` `auto` `enum` `operator` `throw` `explicit` `delete`
+- `export` `extern` `typedef` `register` `typeid` `typename` `template`
+- `reinterpret_cast` `union` `friend` `mutable` `dynamic_cast`
+- `short` `long` `signed` `unsigned`
 
 ### Other reserved words:
-- and or xor not
-- and_eq or_eq xor_eq not_eq
-- bitor bitand compl
+- `and` `or` `xor` `not`
+- `and_eq` `or_eq` `xor_eq` `not_eq`
+- `bitor` `bitand` `compl`
 			
 
 ### Modifiers:
-- signed
-- unsigned
-- long
-- short
+- `signed`
+- `unsigned`
+- `long`
+- `short`
 
 ### Class:
 C++ implements data abstraction using a concept called classes.
