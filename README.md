@@ -1,5 +1,5 @@
 # TeaLearn
-- ـــDISCLAIMER: This material is compiled for learning purposes only and may not be suitable for non-educational use. Each code, entity, language, tool, etc. may have a different license that you must refer to for use.ـــ
+- ___DISCLAIMER: This material is compiled for learning purposes only and may not be suitable for non-educational use. Each code, entity, language, tool, etc. may have a different license that you must refer to for use.___
 
 - ***[CURRENT::Kotlin]***
 - ***[BACK  FOCUS::NODEJS,SOCKETIO,JS]***
