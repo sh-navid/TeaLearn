@@ -5,11 +5,11 @@
 - Kotlin [main with parameters](example/2_main_with_parameters.kt)
 - [Comments](example/3_comment.kt)
 - Syntax
-- [Variables](concepts/variables.kt)
+- [Variables](concept/variables.kt)
     - ***camelCase*** variable naming 
     - `var` can be changed
     - `val` cannot be changed
-- [DataTypes](concepts/datatypes.kt)
+- [DataTypes](concept/datatypes.kt)
     - `:Boolean`
     - `:Char`
     - `:String`
