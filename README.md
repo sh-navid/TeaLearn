@@ -59,6 +59,8 @@
         - Decorator [Kotlin](pattern/gof_decorator.kt)
         - Factory
         - Abstract Factory
+        - Builder [Kotlin](pattern/gof_builder.kt)
+            >> If you have complex initialization logic or you have large number of input parameters
 - View Holder
 - Dependency Injection (DI)
 - Service Locator
