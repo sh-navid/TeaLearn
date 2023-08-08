@@ -1,0 +1,33 @@
+class Gun(val bullets:Int, val color:String, val features:List<String>){
+    class Builder{
+        private var bullets:Int = 0
+        private var color:String = "#212121"
+        private var features = listOf<String>()
+
+        fun setBullets(bullets:Int){
+            this.bullets = bullets
+        }
+
+        fun setColor(color:String){
+            this.color = color
+        }
+
+        fun addFeature(feature:String){
+            this.features += feature
+        }
+
+        fun build():Gun{
+            require(this.bullets<=0){"Gun needs at least one bullet"}
+            return Gun(bullets,color,features)
+        }
+    }
+}
+
+fun main(){
+    val gun = Gun.Builder()
+                 .setBullets(0)
+                 .setColor("Green")
+                 .addFeature("Heavy")
+                 .addFeature("Portable")
+                 .build()
+}
