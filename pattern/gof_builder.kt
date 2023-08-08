@@ -4,16 +4,19 @@ class Gun(val bullets:Int, val color:String, val features:List<String>){
         private var color:String = "#212121"
         private var features = listOf<String>()
 
-        fun setBullets(bullets:Int){
+        fun setBullets(bullets:Int):Builder{
             this.bullets = bullets
+            return this
         }
 
-        fun setColor(color:String){
+        fun setColor(color:String):Builder{
             this.color = color
+            return this
         }
 
-        fun addFeature(feature:String){
+        fun addFeature(feature:String):Builder{
             this.features += feature
+            return this
         }
 
         fun build():Gun{
@@ -30,4 +33,9 @@ fun main(){
                  .addFeature("Heavy")
                  .addFeature("Portable")
                  .build()
+
+
+    println(gun.bullets)
+    println(gun.color)
+    println(gun.features)
 }
