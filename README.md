@@ -31,13 +31,45 @@
 ## Programming Paradigms
 - [OOP](paradigm/oop/README.md)
 
+## Principles
+- OOP
+    - SOLID
+    - GRASP
+    - KISS
+    - DRY
+    - YAGNI
+
+## Design Pattern
+- OOP
+    - GoF
+- View Holder
+- Bridge
+
+
+## Design Architecture (Divide logic and interface)
+- MVC
+- MVP
+- MVVM
+- VIPER
+
+
 ## Web
 - [CSS](web/css/README.md)
 - [PWA](web/pwa/README.md) 
 
+## Web API Architecture
+- REST
+- SOAP
+- GraphQL
+- Apache Kafka
+- AsyncAPI
+- Remote Procedure Call (RPC)
+
 ## Tools
 - [GIT](tool/git/README.md)
 - [Markdown](tool/markdown/README.md)
+- Postman
 
 ## Learn in future
-- RabbitMQ
+- Message Broker
+    - RabbitMQ
