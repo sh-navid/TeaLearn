@@ -166,9 +166,7 @@
 - PyAutoGUI
 
 ## More
-- [**AI**](lessons/ai/README.md)
 - [**Web**](lessons/frontend/README.md)
 - [**Linux** <sub>(Basic Concepts)</sub>](lessons/linux/README.md)
 - [**Network** <sub>(Basic Concepts)</sub>](lessons/network/README.md)
 - [**Security** <sub>(Basic Concepts)</sub>](lessons/security/README.md)
-- [**SQL**](lessons/sql/README.md)
