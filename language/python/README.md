@@ -13,10 +13,7 @@
 - ![](-/f.png) [Function](./concepts/function/README.md)
 - [Random](lessons/python/concepts/random/general-random-functions.py)
    - `random(), randint(), shuffle(), choice()`
-- <details>
-      <summary><strong>Operators</strong></summary>
-
-      - [Operators](lessons/python/concepts/operators)
+- [Operators](lessons/python/concepts/operators)
       1. [Arithmetic](lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
       2. [Assignment](lessons/python/concepts/operators/assignment-operators.py) `= += -=` ,...
       3. [Comparison](lessons/python/concepts/operators/comparison-operators.py) `== != >=` ,...
@@ -24,7 +21,7 @@
       5. [Identity](lessons/python/concepts/operators/identity-operators.py) `is, is not`
       6. [Membership](lessons/python/concepts/operators/membership-operators.py) `in, not in`
       7. [Bitwise](lessons/python/concepts/operators/bitwise-operators.py) `& | ^ ~ << >>`
-      </details>
+      
 - Debugging (break point)
 - <details>
       <summary><strong>List</strong></summary>
