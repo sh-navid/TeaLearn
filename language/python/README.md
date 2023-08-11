@@ -100,23 +100,23 @@
     - Inheritance
     - Override
     - Overload
-      - [Function Overloading](/lessons/python/concepts/object-oriented/function-overloading.py)
+      - [Function Overloading](lessons/python/concepts/object-oriented/function-overloading.py)
           -  Python does not support function overloading
-      - [Operator Overloading](/lessons/python/concepts/operators/operator-overload.py) <sub>[OPTIONAL]</sub>
+      - [Operator Overloading](lessons/python/concepts/operators/operator-overload.py) <sub>[OPTIONAL]</sub>
     - Getter, Setter ???
-    - [Enum](/lessons/python/concepts/enum/color-enum.py)
-- [Eval, Exec](/lessons/python/concepts/advanced/eval-exec.py)
-- [`*argv`, `**kwargs`](/lessons/python/concepts/advanced/argv-kwargs.py)
-- [Sys](/modules/sys/README.md)
-- [OS](/modules/os/README.md)
-- [Assertion](/lessons/python/concepts/advanced/simple-assertion.py)
-- [Generator](/lessons/python/concepts/advanced/simple-generator.py)
+    - [Enum](lessons/python/concepts/enum/color-enum.py)
+- [Eval, Exec](lessons/python/concepts/advanced/eval-exec.py)
+- [`*argv`, `**kwargs`](lessons/python/concepts/advanced/argv-kwargs.py)
+- [Sys](modules/sys/README.md)
+- [OS](modules/os/README.md)
+- [Assertion](lessons/python/concepts/advanced/simple-assertion.py)
+- [Generator](lessons/python/concepts/advanced/simple-generator.py)
 ----
 - [Test](concepts/test/README.md)
-- [PIP](/lessons/python/installation/README-PIP.md)
-- [Decorator](/lessons/python/concepts/advanced/simple-decorator.py)
-- [Reflection](/lessons/python/concepts/advanced/simple-reflection.py)
-- [Regular Expression](/concepts/regex/README.md)
+- [PIP](lessons/python/installation/README-PIP.md)
+- [Decorator](lessons/python/concepts/advanced/simple-decorator.py)
+- [Reflection](lessons/python/concepts/advanced/simple-reflection.py)
+- [Regular Expression](concepts/regex/README.md)
 - [CSV](concepts/documents/csv/README.md)
 
 
@@ -129,13 +129,13 @@
     1. Meta Classes
     2. Meta Programming
 12. Iterator
-    - [Iterator, Iterable](/lessons/python/concepts/advanced/simple-iterator.py)
-    - [Custom Iterator](/lessons/python/concepts/advanced/custom-iterator.py)
+    - [Iterator, Iterable](lessons/python/concepts/advanced/simple-iterator.py)
+    - [Custom Iterator](lessons/python/concepts/advanced/custom-iterator.py)
 13. Closure
-14. [Descriptor](/lessons/python/concepts/advanced/simple-descriptor.py)
-16. [Context Manager](/lessons/python/concepts/keywords/keywords-with.py)
-17. [Regular Expression](/concepts/regex/README.md)
-18. Socket [`client`](/lessons/python/examples/sample/socket/simple-socket-client.py), [`server`](/lessons/python/examples/sample/socket/simple-socket-server.py)
+14. [Descriptor](lessons/python/concepts/advanced/simple-descriptor.py)
+16. [Context Manager](lessons/python/concepts/keywords/keywords-with.py)
+17. [Regular Expression](concepts/regex/README.md)
+18. Socket [`client`](lessons/python/examples/sample/socket/simple-socket-client.py), [`server`](lessons/python/examples/sample/socket/simple-socket-server.py)
 19. Data
     1.  SQL, NoSQL, ORM (SQLAlchemy)
     2.  JSON, CSV, XML, OWL, ...
@@ -151,23 +151,23 @@
 6. Semaphore, Lock, Mutex
 
 ## Modules, Packages, Libs, ...
-- [**Sys**](/modules/sys/README.md)
-- [**OS**](/modules/os/README.md)
-- [**Tkinter**](/lessons/python/modules/tkinter/README.md)
-- [**Turtle**](/lessons/python/modules/turtle/README.md)
-- [**NumPy**](/lessons/python/modules/numpy/README.md)
-- [**Pandas**](/lessons/python/modules/pandas/README.md)
+- [**Sys**](modules/sys/README.md)
+- [**OS**](modules/os/README.md)
+- [**Tkinter**](lessons/python/modules/tkinter/README.md)
+- [**Turtle**](lessons/python/modules/turtle/README.md)
+- [**NumPy**](lessons/python/modules/numpy/README.md)
+- [**Pandas**](lessons/python/modules/pandas/README.md)
 - Matplotlib
 - PyQT
 - Kivy
-- [**DJango**](/lessons/python/modules/django/README.md)
-- [**Flask**](/lessons/python/modules/flask/README.md)
+- [**DJango**](lessons/python/modules/django/README.md)
+- [**Flask**](lessons/python/modules/flask/README.md)
 - Scrapy
 - Selenium
 - BeautifulSoup
-- [**OpenCV**](/lessons/python/modules/opencv/README.md)
+- [**OpenCV**](lessons/python/modules/opencv/README.md)
 - Pillow
-- **PyGame** ([1](/lessons/python/examples/sample/game_engine/simple-2d-game-part1.py),[2](/lessons/python/examples/sample/game_engine/simple-2d-game-part2.py),[3](/lessons/python/examples/sample/game_engine/simple-2d-game-part3.py),[4](/lessons/python/examples/sample/game_engine/simple-2d-game-part4.py))
+- **PyGame** ([1](lessons/python/examples/sample/game_engine/simple-2d-game-part1.py),[2](lessons/python/examples/sample/game_engine/simple-2d-game-part2.py),[3](lessons/python/examples/sample/game_engine/simple-2d-game-part3.py),[4](lessons/python/examples/sample/game_engine/simple-2d-game-part4.py))
 - Open3D
 - TF
 - PyTorch
