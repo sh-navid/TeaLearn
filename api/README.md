@@ -13,8 +13,8 @@
 - RSA
 
 ## Examples
-- [Captcha API](/examples/README.md)
-- [Auto Complete](/examples/AUTO_COMPLETE.md)
+- [Captcha API](examples/README.md)
+- [Auto Complete](examples/AUTO_COMPLETE.md)
 - JQ Ajax Call
 - Fetch Call
-- [Laravel + ReactJS](/projects/LaravelReact/README.md)
+- [Laravel + ReactJS](projects/LaravelReact/README.md)
