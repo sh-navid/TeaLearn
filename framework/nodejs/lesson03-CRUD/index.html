@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script src="client"></script>
+    <script>
+        let data = {
+            "id": 1,
+            "name": "AJAX_POST"
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="GET"        onclick="ajax('GET','/data',        null,(res)=>{alert(res)})" />
+    <input type="button" value="GET ID(1)"  onclick="ajax('GET','/data/1',      null,(res)=>{alert(res)})" />
+    <input type="button" value="POST"       onclick="ajax('POST','/data',       data,(res)=>{alert(res)})" />
+
+    <br />
+    <form action="/data" method="POST">
+        <input name="id" type="hidden" value="2" />
+        <input name="name" type="hidden" value="FORM_POST" />
+        <input type="submit" value="POST FORM" />
+    </form>
+    <br />
+
+    <input type="button" value="PUT"        onclick="ajax('PUT','/data/1',      null,(res)=>{alert(res)})" />
+    <input type="button" value="PATCH"      onclick="ajax('PATCH','/data/1',    null,(res)=>{alert(res)})" />
+    <input type="button" value="DELETE"     onclick="ajax('DELETE','/data/1',   null,(res)=>{alert(res)})" />
+</body>
+
+</html>
