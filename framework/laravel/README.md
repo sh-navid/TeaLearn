@@ -1,0 +1,43 @@
+# Laravel Test Application
+***Disclaimer*: The content described in this repository are for educational purposes only.**
+---
+- Laravel uses model-view-controller (MVC) architectural pattern.
+- Laravel 1 was released in 2011.
+- ** [Concepts](topic/CONCEPT.md)
+- [Setup](topic/SETUP.md)
+- [Maintenance](topic/MAINTENANCE.md)
+- [Routes](topic/ROUTE.md)
+- [CSRF](topic/CSRF.md)
+- [Controller](topic/Controller.md)
+- ** [Model](topic/Model.md)
+- ** [Migration](topic/Migration.md)
+- ** [Blade](topic/Blade.md)
+- ** Make extra directories
+    - `make:job`
+    - `make:mail`
+    - `make:notification`
+    - `make:rule`
+- ** `php artisan key:generate`
+    >> For session securing and encrypted data keys
+- `return Redirect::to('login');`
+- [SSR Project](project/PROJECT.md)
+- [SSR + CSR Project](project/PROJECT-CSR.md)
+- [File Upload](project/FILE-UPLOAD.md)
+- Send Email
+- [Cookie](topic/COOKIE.md)
+- [Ajax](project/AJAX.md)
+- [Factory, Faker](project/FACTORY.md)
+- [CustomCommand](topic/COMMAND.md)
+- [SocketIO](project/Socket/SOCKET.md)
+- Composer
+    - [milon/barcode](composer/MILON-BARCODE.md)
+---
+- [Eloquent](topic/Eloquent.md)
+- [Database](topic/DATABASE.md)
+- [Basic Auth](topic/AUTH.md)
+- [Authentication, Validator](project/AUTH.md)
+- [Laravel + SocketIO Game](applications/game/README.md)
+- [Candy Market](applications/candy-market/README.md)
+---
+- [API](applications/api/README.md)
+- [Middleware](topic/MIDDLEWARE.md)

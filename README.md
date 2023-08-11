@@ -30,7 +30,7 @@
 ## Frameworks
 - NodeJS
     - SocketIO
-- Laravel
+- [Laravel](framework/laravel/README.md)
 - Native
     - [Android](framework/android/README.md)
     - IOS
