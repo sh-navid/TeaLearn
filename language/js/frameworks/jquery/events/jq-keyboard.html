@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        div {
+            width: 15em;
+            height: 3em;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 3em;
+            font-size: 300%;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <p>Press a key on your keyboard</p>
+        <div></div>
+        <br />
+        <div></div>
+    </form>
+    <script>
+        d = $(document)
+        h = $("div").first()
+        h2 = $("div").last()
+
+        d.keydown((e) => {
+            h.text("KeyDown - " + e.which + " - " + e.metaKey + " - " + e.key)
+        })
+
+        d.keyup((e) => {
+            h.text("KeyUp - " + e.which + " - " + e.metaKey + " - " + e.key)
+        })
+
+        d.keypress((e) => {
+            h2.text("KeyPress - " + e.which + " - " + e.metaKey + " - " + e.key)
+        })
+    </script>
+</body>
+
+</html>

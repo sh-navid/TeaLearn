@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+    <style>
+        * {
+            user-select: none;
+        }
+
+        div {
+            border: 1px solid black;
+            width: 5em;
+            height: 5em;
+            line-height: 5em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Open debug console and then</p>
+    <p>Click Here</p>
+    <p>And check out the state of target and currentTarget</p>
+    <div id="p3">
+        <div id="p2">
+            <div id="p1">
+                <div id="counter">
+                    0
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <input type="checkbox" id="ch" />
+    <label for="ch">StopPropagation</label>
+    <script>
+        c = $("input")
+        d = $("div")
+        _ = $("#counter")
+
+        d.click((e) => {
+            if (c.prop("checked"))
+                e.stopPropagation()
+
+            _.text(parseInt(_.text()) + 1)
+        })
+
+        d.click((e) => {
+            console.log("Target", e.target)
+            console.log("Related", e.relatedTarget)
+            console.log("CurrentTarget", e.currentTarget)
+            console.log("DelegateTarget", e.delegateTarget)
+            console.log("---------------------------")
+        })
+    </script>
+</body>
+
+</html>

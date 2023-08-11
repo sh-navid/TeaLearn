@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <form>
+        <input type="text" />
+        <input type="button" value="-">
+        <input type="button" value="-" disabled>
+        <div>-</div>
+        <div hidden>-</div>
+    </form>
+    <script>
+        $(":enabled").val("Enabled")
+        $(":disabled").val("Disabled")
+
+        $(":text").select((e) => {
+            alert(JSON.stringify($(":selected")))
+        })
+
+        $("div").filter(":hidden").removeAttr("hidden")
+        $("div").filter(":visible").text("I am Visible")
+    </script>
+</body>
+
+</html>

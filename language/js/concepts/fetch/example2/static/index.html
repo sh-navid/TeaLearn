@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input oninput="update(this)" />
+    <div>
+
+    </div>
+    <script>
+        d = document.querySelector("div")
+
+        const update = (el) => {
+            d.innerText = ""
+            fetch("/auto/" + el.value)
+                .then((res) => res.json())
+                .then((res) => {
+                    d.innerText = res
+                })
+        }
+    </script>
+</body>
+
+</html>
