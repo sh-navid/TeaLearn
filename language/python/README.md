@@ -40,15 +40,11 @@
     - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](lessons/python/concepts/collections/set-access.py)
     - [`frozenset()`](lessons/python/concepts/collections/set-frozen.py)
 
-- <details>
-      <summary><strong>Dictionary</strong></summary>
-      
+- Dictionary
       - Ordered, Changeable, Key Value, No Duplicate
       - [`access, assign, .update(), dict(), .keys(), .values(), .items(), zip(), len(), .pop(), .popitem(), del, .clear(), .copy(), .fromkeys(), .setdefault())`](lessons/python/concepts/collections/dict-access.py)
-      </details>
-- <details>
-      <summary><strong>DataTypes</strong></summary>
-      
+
+- DataTypes
       - Numbers: [`Integer, Float, Complex`](lessons/python/concepts/data-types/data-type-number.py)
       - Sequence: [`String`](lessons/python/concepts/data-types/data-type-string.py), [`Range`](lessons/python/concepts/data-types/data-type-range.py), [`List`](lessons/python/concepts/collections/list-access.py), [`Tuple`](lessons/python/concepts/collections/tuple-access.py), `Bytes`, `ByteArray`
       - Set: [`Set`](lessons/python/concepts/collections/set-access.py), [`FrozenSet`](lessons/python/concepts/collections/set-frozen.py)
@@ -57,7 +53,6 @@
       - Boolean: [`Boolean`](lessons/python/concepts/boolean/boolean-concept.py)
       - Binary: [`Bytes, ByteArray, MemoryView`](lessons/python/concepts/data-types/data-type-bytes.py)
       - `bytes` is immutable; however `bytearray` is mutable
-      </details>
 - Module
 - Conversion, TypeCasting
 - Input
