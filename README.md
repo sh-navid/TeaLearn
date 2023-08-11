@@ -55,12 +55,22 @@
 ## Design Patterns
 - OOP
     - GoF
-        - Singleton [Kotlin](pattern/gof_singleton.kt)
-        - Decorator [Kotlin](pattern/gof_decorator.kt)
+        - Singleton [[.kt](pattern/gof_singleton.kt)]
+        - Decorator [[.kt](pattern/gof_decorator.kt)]
         - Factory
         - Abstract Factory
-        - Builder [Kotlin](pattern/gof_builder.kt)
+        - Builder [[.kt](pattern/gof_builder.kt)]
             >> If you have complex initialization logic or you have large number of input parameters
+        - Adapter
+            >> How to use an 3 pin charger with 2 pin power line?
+        - Facade
+        - Observer
+        - Strategy
+        - Proxy
+            - Protection
+            - Virtual
+            - Remote
+                >> When you have a local proxy class but the real object is somewhere else
 - View Holder
 - Dependency Injection (DI)
 - Service Locator
@@ -97,3 +107,4 @@
 ## Learn in future
 - Message Broker
     - RabbitMQ
+- Coroutine
