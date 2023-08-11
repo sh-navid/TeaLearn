@@ -1,4 +1,4 @@
-# TEApp.AI
+# AI
 
 - Disclaimer: Part or all of this repo may be wrong
 
