@@ -11,8 +11,10 @@
 - ![](-/n.png) [Variables](./concepts/variables/README.md)
 - ![](-/f.png) [String](./concepts/strings/README.md)
 - ![](-/f.png) [Function](./concepts/function/README.md)
+
 - [Random](lessons/python/concepts/random/general-random-functions.py)
     - `random(), randint(), shuffle(), choice()`
+
 - [Operators](lessons/python/concepts/operators)
     1. [Arithmetic](lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
     2. [Assignment](lessons/python/concepts/operators/assignment-operators.py) `= += -=` ,...
@@ -23,26 +25,22 @@
     7. [Bitwise](lessons/python/concepts/operators/bitwise-operators.py) `& | ^ ~ << >>`
       
 - Debugging (break point)
-- <details>
-      <summary><strong>List</strong></summary>
+
+- List
+    - Ordered, Changeable, Indexed, Allow Duplicate
+    - [`access, assign, iterate, list(), .append(), .insert(), .remove(), del, .pop(), .copy(), .extend(), .clear(), len(), .count(), slice, join, unpack, in, .index(), .reverse(), .sort()`](lessons/python/concepts/collections/list-access.py)
+
+- Tuple
+    - Ordered, Unchangeable, Indexed, Allow Duplicate
+    - Tuples are **unchangeable**, or **immutable** so you cannot add or remove items from it
+    - [`access, tuple with one item, tuple(), iterate, del completely, len(), .count(), slice, join, unpack, in, .index()`](lessons/python/concepts/collections/tuple-access.py)
+ 
+- Set
       
-      - Ordered, Changeable, Indexed, Allow Duplicate
-      - [`access, assign, iterate, list(), .append(), .insert(), .remove(), del, .pop(), .copy(), .extend(), .clear(), len(), .count(), slice, join, unpack, in, .index(), .reverse(), .sort()`](lessons/python/concepts/collections/list-access.py)
-      </details>
-- <details>
-      <summary><strong>Tuple</strong></summary>
-      
-      - Ordered, Unchangeable, Indexed, Allow Duplicate
-      - Tuples are **unchangeable**, or **immutable** so you cannot add or remove items from it
-      - [`access, tuple with one item, tuple(), iterate, del completely, len(), .count(), slice, join, unpack, in, .index()`](lessons/python/concepts/collections/tuple-access.py)
-      </details>
-- <details>
-      <summary><strong>Set</strong></summary>
-      
-      - Unordered, Unchangeable (By index, But you can add/remove), Unindexed, No Duplicate
-      - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](lessons/python/concepts/collections/set-access.py)
-      - [`frozenset()`](lessons/python/concepts/collections/set-frozen.py)
-      </details>
+    - Unordered, Unchangeable (By index, But you can add/remove), Unindexed, No Duplicate
+    - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](lessons/python/concepts/collections/set-access.py)
+    - [`frozenset()`](lessons/python/concepts/collections/set-frozen.py)
+
 - <details>
       <summary><strong>Dictionary</strong></summary>
       
