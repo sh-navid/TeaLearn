@@ -1,0 +1,141 @@
+# Sql Instructor
+- RDBMS <sub>Relational Database Management System</sub>
+## MySQL/MariaDB
+- Config
+  - Ubuntu
+    - `mysql_secure_installation`
+- Command Line
+  - `mysql -u root -p`
+## Headings
+- Command Line
+  - Show
+    - Databases
+      - `show databases;`
+    - Tables
+  - Create
+    - Database
+      - `create database DATABASE_NAME;`
+  - Use
+    - Database
+      - `use DATABASE_NAME;`
+  - Source
+    - `source SQL_FILE.sql`
+  - Run SQL
+    - `mysql -u USERNAME -p PASSWORD DATABASE_NAME < FILENAME.sql`
+    >> Seems that not working like this on ubuntu
+---
+- SQL <sub>Structured Query Language</sub> Command Categories
+  - DQL <sub>Data Query Language</sub>
+      - `SELECT`
+        - `*`, `COLUMN`
+  - DML <sub>Data Manipulation Language</sub>
+    - `INSERT`
+    - `UPDATE`
+    - `DELETE`
+    - `LOCK`
+    - `CALL`
+  - DDL <sub>Data Definition Language</sub>
+    - `CREATE`
+      - [`TABLE`](/concepts/ddl/create_table.sql)
+      - `DATABASE`
+    - `DROP`
+      - `TABLE`
+        - `DROP TABLE <TABLE_NAME>;`
+      - `DATABASE`
+        - `DROP DATABASE <DATABASE_NAME>;`
+    - `ALTER`
+      - `TABLE`
+        - `ADD`
+          - `COLUMN`
+          - `CONSTRAINT`
+        - `REMOVE`
+          - `COLUMN`
+          - `CONSTRAINT`
+        - `MODIFY`
+          - `DATATYPE`
+          - `DATATYPE Length`
+    - `TRUNCATE`
+      - `TABLE`
+    - `VIEW`
+      - `VIEW`
+      - `TABLE`
+      - `DATABASE`
+    - `COMMENT`
+    - `RENAME`
+  - DCL <sub>Data Control Language</sub>
+    - `GRANT`
+    - `REVOKE`
+  - TCL <sub>Transaction Control Language</sub>
+    - `COMMIT`
+    - `ROLLBACK`
+    - `SAVEPOINT`
+  ---
+  - Alias
+    - `AS`
+  - Group By
+    - `COLUMN`
+    - `HAVING`
+  - Order By
+    - `COLUMN`
+      - `ASC`
+      - `DESC`
+  - Join
+    - `INNER`
+    - `LEFT`
+    - `RIGHT`
+    - `FULL`
+  - Where
+    - `>, <, =, <=, >=, <>`
+    - `EXISTS`
+    - `IN`
+    - `ANY`
+    - `ALL`
+    - `LIKE`
+    - `BETWEEN`
+    - `AND`
+    - `OR`
+    - `NOT`
+    - `NULL`
+  - IF
+  - EXISTS
+  - DISTINCT
+  - LIMIT
+  - Functions
+    - Math
+      - `min`, `avg`, `max`, `count`, `sum`, `mod`, `ceil`, `round`, `abs`, `floor`, `sign`
+    - String
+      - `concat`, `trim`, `upper`, `lower`, `length`
+    - Other
+      - `least`, `greatest`
+    - Date
+      - `date_trunc`, `extract`
+    - Window
+      - `lag`, `lead`, `ntile`, `rank`, `dense_rank`, `row_number`, `over`
+---
+- Comment
+  - `-- This is my comment`
+- DataTypes
+- Keys
+    - Primary Key
+    - Super Key
+    - Candidate Key
+    - Alternate Key
+    - Foreign Key
+    - Composite Key
+    - Unique Key
+- Constraints
+  - `Unique`
+  - `Not Null`
+  - `Primary Key`
+  - `Foreign Key`
+  - `Check`
+  - `Default`
+---
+- Normalization
+  - NF
+  - 2NF
+  - 3NF
+  - BCNF
+---
+- Trigger
+- Procedure
