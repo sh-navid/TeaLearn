@@ -13,7 +13,7 @@
 - ![](-/f.png) [Function](./concepts/function/README.md)
 
 - [Random](lessons/python/concepts/random/general-random-functions.py)
-    - `random(), randint(), shuffle(), choice()`
+    - `random()`, `randint()`, `shuffle()`, `choice()`
 
 - [Operators](lessons/python/concepts/operators)
     1. [Arithmetic](lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
@@ -35,8 +35,7 @@
     - Tuples are **unchangeable**, or **immutable** so you cannot add or remove items from it
     - [`access, tuple with one item, tuple(), iterate, del completely, len(), .count(), slice, join, unpack, in, .index()`](lessons/python/concepts/collections/tuple-access.py)
  
-- Set
-      
+- Set 
     - Unordered, Unchangeable (By index, But you can add/remove), Unindexed, No Duplicate
     - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](lessons/python/concepts/collections/set-access.py)
     - [`frozenset()`](lessons/python/concepts/collections/set-frozen.py)
