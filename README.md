@@ -22,8 +22,9 @@
 - [Python](language/python/README.md)
 - [Javascript](language/js/README.md)
 - [Java](language/java/README.md)
-- [SQL](language/sqlhttps://github.com/sh-navid?tab=repositories&q=&type=&language=&sort=name/README.md)
+- [SQL](language/sql/README.md)
 - [CPlusPlus](language/cpp/README.md)
+- [PHP](language/php/README.md)
 
 
 ## Frameworks
@@ -38,7 +39,7 @@
 
 
 ## Concepts
-- [AI](ai/README.md)
+- [AI](other/ai/README.md)
 - [API](api/README.md)
 - [Network+](network/README.md)
 - Security
