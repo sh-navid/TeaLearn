@@ -1,9 +1,9 @@
 # Python Instructor
 
 - **Disclaimer:** _The content of this repository is only for testing and training and is provided at the discretion of the author; So it may not be suitable for production or other conditions._
-- [Install and Run](/lessons/python/installation/README.md) Python.
-- [Examples](/lessons/python/examples/README.md)
-- [Homeworks](/README-PYTHON-HOMEWORKS.md)
+- [Install and Run](lessons/python/installation/README.md) Python.
+- [Examples](lessons/python/examples/README.md)
+- [Homeworks](README-PYTHON-HOMEWORKS.md)
 
 ## Headings
 - ![](-/n.png) [Introduction](./concepts/introduction/README.md)
@@ -16,52 +16,52 @@
 - <details>
       <summary><strong>Operators</strong></summary>
 
-      - [Operators](/lessons/python/concepts/operators)
-      1. [Arithmetic](/lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
-      2. [Assignment](/lessons/python/concepts/operators/assignment-operators.py) `= += -=` ,...
-      3. [Comparison](/lessons/python/concepts/operators/comparison-operators.py) `== != >=` ,...
-      4. [Logical](/lessons/python/concepts/operators/logical-operators.py) `and, or, not`
-      5. [Identity](/lessons/python/concepts/operators/identity-operators.py) `is, is not`
-      6. [Membership](/lessons/python/concepts/operators/membership-operators.py) `in, not in`
-      7. [Bitwise](/lessons/python/concepts/operators/bitwise-operators.py) `& | ^ ~ << >>`
+      - [Operators](lessons/python/concepts/operators)
+      1. [Arithmetic](lessons/python/concepts/operators/arithmetic-operators.py) `+ -` ,...
+      2. [Assignment](lessons/python/concepts/operators/assignment-operators.py) `= += -=` ,...
+      3. [Comparison](lessons/python/concepts/operators/comparison-operators.py) `== != >=` ,...
+      4. [Logical](lessons/python/concepts/operators/logical-operators.py) `and, or, not`
+      5. [Identity](lessons/python/concepts/operators/identity-operators.py) `is, is not`
+      6. [Membership](lessons/python/concepts/operators/membership-operators.py) `in, not in`
+      7. [Bitwise](lessons/python/concepts/operators/bitwise-operators.py) `& | ^ ~ << >>`
       </details>
 - Debugging (break point)
 - <details>
       <summary><strong>List</strong></summary>
       
       - Ordered, Changeable, Indexed, Allow Duplicate
-      - [`access, assign, iterate, list(), .append(), .insert(), .remove(), del, .pop(), .copy(), .extend(), .clear(), len(), .count(), slice, join, unpack, in, .index(), .reverse(), .sort()`](/lessons/python/concepts/collections/list-access.py)
+      - [`access, assign, iterate, list(), .append(), .insert(), .remove(), del, .pop(), .copy(), .extend(), .clear(), len(), .count(), slice, join, unpack, in, .index(), .reverse(), .sort()`](lessons/python/concepts/collections/list-access.py)
       </details>
 - <details>
       <summary><strong>Tuple</strong></summary>
       
       - Ordered, Unchangeable, Indexed, Allow Duplicate
       - Tuples are **unchangeable**, or **immutable** so you cannot add or remove items from it
-      - [`access, tuple with one item, tuple(), iterate, del completely, len(), .count(), slice, join, unpack, in, .index()`](/lessons/python/concepts/collections/tuple-access.py)
+      - [`access, tuple with one item, tuple(), iterate, del completely, len(), .count(), slice, join, unpack, in, .index()`](lessons/python/concepts/collections/tuple-access.py)
       </details>
 - <details>
       <summary><strong>Set</strong></summary>
       
       - Unordered, Unchangeable (By index, But you can add/remove), Unindexed, No Duplicate
-      - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](/lessons/python/concepts/collections/set-access.py)
-      - [`frozenset()`](/lessons/python/concepts/collections/set-frozen.py)
+      - [`access, len(), set(), in, .add(), .update(), (.remove(), .discard(), .pop(), del), .copy(), .clear(), (.union(), intersection, difference, symmetric_difference), (disjoint, subset, superset)`](lessons/python/concepts/collections/set-access.py)
+      - [`frozenset()`](lessons/python/concepts/collections/set-frozen.py)
       </details>
 - <details>
       <summary><strong>Dictionary</strong></summary>
       
       - Ordered, Changeable, Key Value, No Duplicate
-      - [`access, assign, .update(), dict(), .keys(), .values(), .items(), zip(), len(), .pop(), .popitem(), del, .clear(), .copy(), .fromkeys(), .setdefault())`](/lessons/python/concepts/collections/dict-access.py)
+      - [`access, assign, .update(), dict(), .keys(), .values(), .items(), zip(), len(), .pop(), .popitem(), del, .clear(), .copy(), .fromkeys(), .setdefault())`](lessons/python/concepts/collections/dict-access.py)
       </details>
 - <details>
       <summary><strong>DataTypes</strong></summary>
       
-      - Numbers: [`Integer, Float, Complex`](/lessons/python/concepts/data-types/data-type-number.py)
-      - Sequence: [`String`](/lessons/python/concepts/data-types/data-type-string.py), [`Range`](/lessons/python/concepts/data-types/data-type-range.py), [`List`](/lessons/python/concepts/collections/list-access.py), [`Tuple`](/lessons/python/concepts/collections/tuple-access.py), `Bytes`, `ByteArray`
-      - Set: [`Set`](/lessons/python/concepts/collections/set-access.py), [`FrozenSet`](/lessons/python/concepts/collections/set-frozen.py)
-      - Map: [`Dictionary`](/lessons/python/concepts/collections/dict-access.py)
+      - Numbers: [`Integer, Float, Complex`](lessons/python/concepts/data-types/data-type-number.py)
+      - Sequence: [`String`](lessons/python/concepts/data-types/data-type-string.py), [`Range`](lessons/python/concepts/data-types/data-type-range.py), [`List`](lessons/python/concepts/collections/list-access.py), [`Tuple`](lessons/python/concepts/collections/tuple-access.py), `Bytes`, `ByteArray`
+      - Set: [`Set`](lessons/python/concepts/collections/set-access.py), [`FrozenSet`](lessons/python/concepts/collections/set-frozen.py)
+      - Map: [`Dictionary`](lessons/python/concepts/collections/dict-access.py)
       - Nothing: `None`
-      - Boolean: [`Boolean`](/lessons/python/concepts/boolean/boolean-concept.py)
-      - Binary: [`Bytes, ByteArray, MemoryView`](/lessons/python/concepts/data-types/data-type-bytes.py)
+      - Boolean: [`Boolean`](lessons/python/concepts/boolean/boolean-concept.py)
+      - Binary: [`Bytes, ByteArray, MemoryView`](lessons/python/concepts/data-types/data-type-bytes.py)
       - `bytes` is immutable; however `bytearray` is mutable
       </details>
 - Module
@@ -70,8 +70,8 @@
 - <details>
       <summary><strong>Keywords</strong></summary>
 
-      - [if, elif, else](/lessons/python/concepts/keywords/keywords-if-elif.py)
-      - [for](/lessons/python/concepts/keywords/keywords-for.py)
+      - [if, elif, else](lessons/python/concepts/keywords/keywords-if-elif.py)
+      - [for](lessons/python/concepts/keywords/keywords-for.py)
       - [while, continue, break](/lessons/python/concepts/keywords/keywords-while.py)
       - [try, except, finally](/lessons/python/concepts/keywords/keywords-try-except.py)
       - [and, or, not, in, is](/lessons/python/concepts/keywords/keywords-and-or-not-in-is.py)
