@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div>
+        <h1>Home Page (CSR)</h1>
+        <hr />
+        Ajax Call
+        <hr />
+    </div>
+    <script>
+        d = document.querySelector("div")
+
+        fetch("example-02.php?data=array")
+            .then((res) => res.text())
+            .then((res) => {
+                res = res.split(",")
+                res.forEach(element => {
+                    d.innerHTML += element + "<hr/>"
+                });
+            })
+
+
+        fetch("example-02.php?data=json")
+            .then((res) => res.json())
+            .then((res) => {
+                res.forEach(element => {
+                    d.innerHTML += element.Title + " - " + element.Price + "<hr/>"
+                });
+            })
+    </script>
+</body>
+
+</html>

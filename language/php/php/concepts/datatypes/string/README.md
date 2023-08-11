@@ -1,0 +1,111 @@
+# PHP
+## Datatype
+### String
+- **Functions**
+    - **Output**
+        - [**`echo()`**](str-output-echo.php)
+        - [**`print()`**](str-output-print.php)
+        - [**`printf()`**](str-output-printf.php)
+    - **Count**
+        - [**`strlen()`**](str-count-len.php)
+        - [**`count_chars()`**](str-count-chars.php)
+        - [**`str_word_count()`**](str-count-word.php)
+    - **Cast/Convert**
+        - [**`chr()`**](str-conv-char-ord.php)
+        - [**`ord()`**](str-conv-char-ord.php)
+        - [`bin2hex()`](str-conv-bin-hex.php)
+        - [`hex2bin()`](str-conv-bin-hex.php)
+        - [`convert_uudecode()`](str-conv-uu-encode-decode.php)
+        - [`convert_uuencode()`](str-conv-uu-encode-decode.php)
+    - **Hash**
+        - [**`crypt()`**](str-hash-crypt.php)
+        - [**`md5()`**](str-hash-crypt.php)
+        - [**`md5_file()`**](str-hash-file.php)
+        - [**`sha1()`**](str-hash-crypt.php)
+        - [**`sha1_file()`**](str-hash-file.php)
+        - [`str_rot13()`](str-hash-crypt.php)
+    - **Calculation**
+        - [`crc32()`](str-calc-crc.php)
+        - [**`similar_text()`**](str-calc-similar-text.php)
+        - [`soundex()`](str-calc-soundex.php)
+        - [`levenshtein()`](str-calc-levenshtein.php)
+        - [`metaphone()`](str-calc-metaphone.php)
+    - **Manipulate**
+        - [**`str_replace()`**](str-man-replace.php)
+            - [`str_ireplace()`](str-man-replace.php)
+                >> Case insensitive
+        - [**`implode()`**](str-man-split-join.php)
+            - [`join()`](str-man-split-join.php) <small><sub>ALIAS</sub></small>
+        - [**`explode()`**](str-man-split-join.php)
+        - [`str_split()`](str-man-split-join.php)
+        - [**`strrev()`**](str-man-str-rev.php)
+        - [**`chop()`**](str-man-chop.php)
+        - [`chunk_split()`](str-man-chunk-split.php)
+        - [`str_repeat()`](str-man-repeat.php)
+        - [`str_shuffle()`](str-man-shuffle.php)
+    - **HTML**
+        - [**`htmlentities()`**](str-html.php)
+            - [**`html_entity_decode()`**](str-html.php)
+        - [`htmlspecialchars()`](str-html.php)
+            - [`htmlspecialchars_decode()`](str-html.php)
+        - [`get_html_translation_table()`](str-html-trans-table.php)
+    - **Format**
+        - [**`strtolower()`**](str-format-upper-lower.php)
+        - [**`strtoupper()`**](str-format-upper-lower.php)
+        - [`lcfirst()`](str-format-lc-first.php)
+        - [`localeconv()`](str-format-locale-conv.php)
+        - [~~`money_format()`~~](str-format-money.php)
+        - [**`number_format()`**](str-format-number.php)
+    - **Trim**
+        - [**`trim()`**](str-trim.php)
+        - [`ltrim()`](str-trim.php)
+        - [`rtrim()`](str-trim.php)
+    - **Search**
+        - [**`strpos()`**](str-search.php)
+            - [`stripos()`](str-search.php)
+        - [**`strrpos()`**](str-search.php)
+            - [`strripos()`](str-search.php)
+        - [**`strstr()`**](str-str.php)
+            - [`stristr()`](str-str.php)
+            - [`strchr()`](str-chr.php) <small><sub>ALIAS</sub></small>
+            - [`strrchr()`](str-chr.php)
+        - [`strpbrk()`](str-other-pbrk.php)
+        - `str_contains()` <small><sub>PHP 8</sub></small>
+    - **Substr**
+        - [**`substr()`**](str-sub.php)
+        - [`substr_compare()`](str-sub-cmp.php)
+        - [**`substr_count()`**](str-sub.php)
+        - [`substr_replace()`](str-sub-rep.php)
+    - **Slash**
+        - [**`addslashes()`**](str-slash.php)
+            - [**`stripslashes()`**](str-slash.php)
+        - [`addcslashes()`](str-slash.php)
+            - [`stripcslashes()`](str-slash.php)
+    - **Compare**
+        - [**`strcmp()`**](str-cmp.php)
+            - [`strncmp()`](str-cmp.php)
+                - [`strnatcmp()`](str-cmp.php)
+            - `strcasecmp()`
+                - `strncasecmp()`
+                    - `strnatcasecmp()`
+            - `strcoll()`
+                >> Like strcmp but not binary safe ???
+    - **Other**
+        - `setlocale()` -> CHECK LATER
+        - ~~`convert_cyr_string()`~~
+        - `parse_str()` -> CHECK LATER
+        - `strip_tags()` -> CHECK LATER
+        - `fprintf()` -> CHECK LATER
+        - `sprintf()` -> CHECK LATER
+            - `sscanf()` -> CHECK LATER
+        - `nl_langinfo()` -> CHECK LATER
+        - [`nl2br()`](str-other-newline-2-br.php)
+        - `quoted_printable_encode()`
+            - `quoted_printable_decode()`
+        - [**`quotemeta()`**](str-quote-meta.php)
+        - [**`str_getcsv()`**](str-other-csv.php)
+        - [**`str_pad()`**](str-other-pad.php)
+        - [`strspn()`](str-other-spn.php)
+            - [`strcspn()`](str-other-spn.php)
+        - [`strtok()`](str-other-token.php)
+        - [**`strtr()`**](str-translate.php)
