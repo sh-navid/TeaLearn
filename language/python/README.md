@@ -11,7 +11,7 @@
 - ![](-/n.png) [Variables](./concepts/variables/README.md)
 - ![](-/f.png) [String](./concepts/strings/README.md)
 - ![](-/f.png) [Function](./concepts/function/README.md)
-- [Random](/lessons/python/concepts/random/general-random-functions.py)
+- [Random](lessons/python/concepts/random/general-random-functions.py)
    - `random(), randint(), shuffle(), choice()`
 - <details>
       <summary><strong>Operators</strong></summary>
@@ -72,24 +72,24 @@
 
       - [if, elif, else](lessons/python/concepts/keywords/keywords-if-elif.py)
       - [for](lessons/python/concepts/keywords/keywords-for.py)
-      - [while, continue, break](/lessons/python/concepts/keywords/keywords-while.py)
-      - [try, except, finally](/lessons/python/concepts/keywords/keywords-try-except.py)
-      - [and, or, not, in, is](/lessons/python/concepts/keywords/keywords-and-or-not-in-is.py)
-      - [import, from, as](/lessons/python/concepts/keywords/keywords-import.py)
-      - [class, def, lambda, pass, return, del](/lessons/python/concepts/keywords/keywords-class-def-lambda-pass-ret-del.py)
-      - [global, nonlocal](/lessons/python/concepts/keywords/keywords-scope.py)
-      - [assert](/lessons/python/concepts/keywords/keywords-assert.py) <sub>[Optonal]</sub>, [raise](/lessons/python/concepts/keywords/keywords-raise.py) <sub>[Optonal]</sub>
-      - [with](/lessons/python/concepts/keywords/keywords-with.py) <sub>[Optonal]</sub>
-      - [yield](/lessons/python/concepts/keywords/keywords-yield.py) <sub>[Optonal]</sub>
+      - [while, continue, break](lessons/python/concepts/keywords/keywords-while.py)
+      - [try, except, finally](lessons/python/concepts/keywords/keywords-try-except.py)
+      - [and, or, not, in, is](lessons/python/concepts/keywords/keywords-and-or-not-in-is.py)
+      - [import, from, as](lessons/python/concepts/keywords/keywords-import.py)
+      - [class, def, lambda, pass, return, del](lessons/python/concepts/keywords/keywords-class-def-lambda-pass-ret-del.py)
+      - [global, nonlocal](lessons/python/concepts/keywords/keywords-scope.py)
+      - [assert](lessons/python/concepts/keywords/keywords-assert.py) <sub>[Optonal]</sub>, [raise](lessons/python/concepts/keywords/keywords-raise.py) <sub>[Optonal]</sub>
+      - [with](lessons/python/concepts/keywords/keywords-with.py) <sub>[Optonal]</sub>
+      - [yield](lessons/python/concepts/keywords/keywords-yield.py) <sub>[Optonal]</sub>
       </details>
-- [Comperhension](/lessons/python/concepts/collections/comperhension.py)
+- [Comperhension](lessons/python/concepts/collections/comperhension.py)
 - Scope, Globals, Locals
-    - [`locals(), globals()`](/lessons/python/concepts/variables/scope.py)
-- [Read File, Write File](/lessons/python/examples/sample/file/read-write-file.py), [Pickle](/lessons/python/examples/sample/file/read-write-pickle.py)
+    - [`locals(), globals()`](lessons/python/concepts/variables/scope.py)
+- [Read File, Write File](lessons/python/examples/sample/file/read-write-file.py), [Pickle](lessons/python/examples/sample/file/read-write-pickle.py)
 - Math
-- [Date, Time](/lessons/python/concepts/date-time/date-time.py)
-- [Function, Method, Lambda](./lessons/python/concepts/object-oriented/types-of-methods.py)
-- [OOP](/lessons/python/concepts/object-oriented/README.md)
+- [Date, Time](lessons/python/concepts/date-time/date-time.py)
+- [Function, Method, Lambda](lessons/python/concepts/object-oriented/types-of-methods.py)
+- [OOP](lessons/python/concepts/object-oriented/README.md)
     - Class, Object
     - Constructor
     - ToString, Representation
