@@ -1,4 +1,4 @@
-# TeaLearn
+# Headlines
 - ___DISCLAIMER: This material is compiled for learning purposes only and may not be suitable for non-educational use. Each code, entity, language, tool, etc. may have a different license that you must refer to for use.___
 
 - **[CURRENT::Kotlin]**
@@ -99,12 +99,60 @@
 
 
 ## Tools
-- [GIT](tool/git/README.md)
+- Source Control
+    - [GIT](tool/git/README.md)
 - [Markdown](tool/markdown/README.md)
 - Postman
+- Terraform
 
 
 ## Learn in future
 - Message Broker
     - RabbitMQ
 - Coroutine
+
+
+
+----
+
+
+
+## CI-CD
+- Pipelines
+    - Github Actions
+    - Gitlab Actions
+    - Jenkins
+    - Travis-CI
+- Testing
+    - Dependency Check
+    - Unit Testing
+    - Architecture
+    - Linting
+
+## Containers
+- Orchestraition
+    - Kuberneties
+- Docker
+- Docker Swarm
+
+## Cloud
+- AWS
+- Azure
+- GCloud
+
+## Log Management
+- Grafana
+- Elk Slack
+- Splunk
+- Prometheus
+
+## Config Management
+- Puppet
+- Salt Stack
+- Ansible
+- Chef
+
+## OS
+- Linux File System
+- Bash
+- SSH
