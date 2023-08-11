@@ -22,7 +22,8 @@
 - [Python](language/python/README.md)
 - [Javascript](language/js/README.md)
 - [Java](language/java/README.md)
-- [SQL](language/sql/README.md)
+- [SQL](language/sqlhttps://github.com/sh-navid?tab=repositories&q=&type=&language=&sort=name/README.md)
+- [CPlusPlus](language/cpp/README.md)
 
 
 ## Frameworks
@@ -33,7 +34,7 @@
     - [Android](framework/android/README.md)
     - IOS
 - [JavaFX](framework/javafx/README.md)
-- [CPlusPlus](language/cpp/README.md)
+- [Wordpress](framework/wordpress/README.md)
 
 
 ## Concepts
