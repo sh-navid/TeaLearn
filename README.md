@@ -4,6 +4,16 @@
 - **[CURRENT::Kotlin]**
 - **[BACK  FOCUS::NODEJS,SOCKETIO,JS]**
 - **[FRONT FOCUS::KOTLIN,ANDROID]**
+- **[DUEDATE/ROBOMOTOR/BLUEBOOK/W-SORT]**
+
+## Idea
+- GYM Global Sys
+- SnagAlt
+
+## Tasks
+- [ ] Integrate NodeJS from old Headlines repository to this new one
+- [ ] Complete examples of GoF Design patterns
+- [ ] Continue working on Bluebook and port it to kotlin
 
 
 ## Language
@@ -26,6 +36,7 @@
 
 
 ## Concepts
+- [AI](ai/README.md)
 - [API](api/README.md)
 - [Network+](network/README.md)
 - Security
@@ -110,11 +121,6 @@
 - Message Broker
     - RabbitMQ
 - Coroutine
-
-
-
-----
-
 
 
 ## CI-CD
