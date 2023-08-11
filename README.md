@@ -22,6 +22,7 @@
 - [Python](language/python/README.md)
 - [Javascript](language/js/README.md)
 - [Java](language/java/README.md)
+- [SQL](language/sql/README.md)
 
 
 ## Frameworks
