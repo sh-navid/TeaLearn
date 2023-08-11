@@ -161,6 +161,6 @@
 - Chef
 
 ## OS
-- Linux File System
+- [Linux](os/linux/README.md)
 - Bash
 - SSH
