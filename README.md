@@ -112,6 +112,8 @@
 - [Markdown](tool/markdown/README.md)
 - Postman
 - Terraform
+- Curl
+- Vim
 
 
 ## Learn in future
