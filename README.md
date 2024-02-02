@@ -1,11 +1,6 @@
 # Headlines
 - ___DISCLAIMER: This material is compiled for learning purposes only and may not be suitable for non-educational use. Each code, entity, language, tool, etc. may have a different license that you must refer to for use.___
 
-- **[CURRENT::Kotlin]**
-- **[BACK  FOCUS::NODEJS,SOCKETIO,JS]**
-- **[FRONT FOCUS::KOTLIN,ANDROID]**
-- **[DUEDATE/ROBOMOTOR/BLUEBOOK/W-SORT]**
-
 ## Idea
 - GYM Global Sys
 - SnagAlt
@@ -18,7 +13,6 @@
 
 ## Language
 - [Kotlin](language/kotlin/README.md)
-- [Swift](language/swift/README.md)
 - [Python](language/python/README.md)
 - [Javascript](language/js/README.md)
 - [Java](language/java/README.md)
