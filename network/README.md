@@ -27,14 +27,17 @@
 - Firewall
 - Transceiver
 
-## Network Topologies
+## Network Physical Topologies
+>> Map of network
+>> A network can have a physical topology and diffrent logical topology from that
 - Bus
 - Star
 - Mesh
 - Ring
 
-## Network Architecture
-- 
+## Network Architecture Type
+- Peer 2 Peer
+- Client/Server
 
 ## Protocols
 - SSH (Secure Shell)
@@ -70,4 +73,4 @@
 - Workstation
     - A computer that is connected to network
 
-43
+49
