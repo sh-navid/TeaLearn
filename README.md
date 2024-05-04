@@ -1,17 +1,9 @@
 # Headlines
 - ___DISCLAIMER: This material is compiled for learning purposes only and may not be suitable for non-educational use. Each code, entity, language, tool, etc. may have a different license that you must refer to for use.___
 
-## Idea
-- GYM Global Sys
-- SnagAlt
-
-## Tasks
-- [ ] Integrate NodeJS from old Headlines repository to this new one
-- [ ] Complete examples of GoF Design patterns
-- [ ] Continue working on Bluebook and port it to kotlin
-
 
 ## Language
+- [C#](language/csharp/README.md)
 - [Kotlin](language/kotlin/README.md)
 - [Python](language/python/README.md)
 - [Javascript](language/js/README.md)
@@ -22,6 +14,7 @@
 
 
 ## Frameworks
+- [.NetCore](framework/dotnet/README.md)
 - [NodeJS](framework/nodejs/README.md)
     - SocketIO
 - [Laravel](framework/laravel/README.md)
